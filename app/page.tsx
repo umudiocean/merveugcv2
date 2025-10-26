@@ -1,14 +1,11 @@
-import Header from "./components/Header";
-import Hero from "./components/Hero";
-import About from "./components/About";
-import Packages from "./components/Packages";
-import Portfolio from "./components/Portfolio";
-import Results from "./components/Results";
-import Testimonials from "./components/Testimonials";
-import Process from "./components/Process";
-import FAQ from "./components/FAQ";
-import CTA from "./components/CTA";
-import Footer from "./components/Footer";
+import PageLoader from "./components/asli/PageLoader";
+import CustomCursor from "./components/asli/CustomCursor";
+import AsliHeader from "./components/asli/AsliHeader";
+import AsliHero from "./components/asli/AsliHero";
+import AsliPortfolio from "./components/asli/AsliPortfolio";
+import AsliAbout from "./components/asli/AsliAbout";
+import AsliContact from "./components/asli/AsliContact";
+import AsliFooter from "./components/asli/AsliFooter";
 import { getPersonSchema, getServiceSchema, getOrganizationSchema } from "./lib/schema";
 
 export default function Home() {
@@ -34,21 +31,25 @@ export default function Home() {
         }}
       />
 
-      <Header />
+      {/* Page Loader */}
+      <PageLoader />
+
+      {/* Custom Cursor */}
+      <CustomCursor />
+
+      {/* Header */}
+      <AsliHeader />
       
+      {/* Main Content */}
       <main id="main-content">
-        <Hero />
-        <About />
-        <Packages />
-        <Portfolio />
-        <Results />
-        <Testimonials />
-        <Process />
-        <FAQ />
-        <CTA />
+        <AsliHero />
+        <AsliPortfolio />
+        <AsliAbout />
+        <AsliContact />
       </main>
 
-      <Footer />
+      {/* Footer */}
+      <AsliFooter />
     </>
   );
 }

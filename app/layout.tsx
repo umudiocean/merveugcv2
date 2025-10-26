@@ -58,10 +58,6 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} ${manrope.variable}`}>
       <body>
-        <a href="#main-content" className="skip-to-content">
-          Skip to content
-        </a>
-        <div className="noise-overlay" aria-hidden="true" />
         {children}
       </body>
     </html>

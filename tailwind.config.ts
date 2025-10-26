@@ -9,25 +9,11 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        bg: "var(--bg)",
-        fg: "var(--fg)",
-        muted: "var(--muted)",
-        line: "var(--line)",
-        accent: {
-          DEFAULT: "var(--accent)",
-          hover: "var(--accent-hover)",
-        },
+        accent: "#ff6b6b",
+        "accent-secondary": "#4ecdc4",
       },
       fontFamily: {
-        sans: ["var(--font-inter)", "Inter", "system-ui", "sans-serif"],
-        display: ["var(--font-manrope)", "Manrope", "Inter", "sans-serif"],
-      },
-      container: {
-        center: true,
-        padding: "1.5rem",
-        screens: {
-          "2xl": "1200px",
-        },
+        sans: ["Inter", "-apple-system", "BlinkMacSystemFont", "sans-serif"],
       },
     },
   },
