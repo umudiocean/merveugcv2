@@ -221,7 +221,7 @@ export const BRAND_CATEGORIES = [
       "Zara", "Mango", "H&M", "Koton", "Stradivarius", "Shein", "Sidefeel",
       "Dressin", "OGÉL", "Babelio", "Adidas", "Nike", "Puma", "Calvin Klein",
       "Guess", "Bershka", "Pull&Bear", "Forever 21", "ZAFUL", "Halara",
-      "PrettyLittleThing", "Fashion Nova"
+      "PrettyLittleThing", "Fashion Nova", "ASOS", "Boohoo", "Missguided"
     ],
   },
   {
@@ -232,7 +232,8 @@ export const BRAND_CATEGORIES = [
       "Temu", "Farmasi", "Flormar", "Golden Rose", "Dyson Beauty", "Kismig",
       "Maybelline", "NYX Cosmetics", "Sephora Collection", "L&apos;Oréal Paris",
       "Rare Beauty", "e.l.f Cosmetics", "Garnier", "Olay", "CapCut Beauty",
-      "Kaja Beauty"
+      "Kaja Beauty", "Fenty Beauty", "Glossier", "The Ordinary", "CeraVe",
+      "Neutrogena", "Clinique", "MAC Cosmetics", "Urban Decay"
     ],
   },
   {
@@ -242,7 +243,9 @@ export const BRAND_CATEGORIES = [
     brands: [
       "Target", "Yita Home", "Narwal", "Homenjoy", "Banbanda", "IKEA",
       "Home Depot", "Bed Bath & Beyond", "Wayfair", "Amazon Home",
-      "Better Homes & Gardens", "Studio McGee", "CB2", "West Elm"
+      "Better Homes & Gardens", "Studio McGee", "CB2", "West Elm",
+      "Pottery Barn", "Anthropologie", "Crate & Barrel", "Williams Sonoma",
+      "Restoration Hardware", "Article", "AllModern", "Overstock"
     ],
   },
   {
@@ -251,7 +254,9 @@ export const BRAND_CATEGORIES = [
     icon: "🎧",
     brands: [
       "Dyson", "Anker", "Belkin", "JBL", "Sony", "Xiaomi", "Eufy", "Ring",
-      "Amazon Devices", "TP-Link", "Insta360", "Razer", "Aqara"
+      "Amazon Devices", "TP-Link", "Insta360", "Razer", "Aqara",
+      "Apple", "Samsung", "Google", "Bose", "Logitech", "Philips Hue",
+      "Nest", "Ecobee", "Wyze", "Arlo", "August"
     ],
   },
   {
@@ -261,7 +266,9 @@ export const BRAND_CATEGORIES = [
     brands: [
       "Adidas", "AllZeroYoga", "Arshiner", "Lululemon", "Gymshark",
       "Under Armour", "Alo Yoga", "P.volve", "On Running", "Reebok",
-      "Decathlon"
+      "Decathlon", "Nike", "Athleta", "Fabletics", "Outdoor Voices",
+      "Vuori", "Sweaty Betty", "Beyond Yoga", "Girlfriend Collective",
+      "Tracksmith", "New Balance", "Brooks", "ASICS"
     ],
   },
   {
@@ -270,7 +277,10 @@ export const BRAND_CATEGORIES = [
     icon: "👶",
     brands: [
       "Carter's", "Arshiner", "PatPat", "KidsTop", "OGL", "H&M Kids",
-      "Gap Kids", "OshKosh B'gosh"
+      "Gap Kids", "OshKosh B'gosh", "Gerber", "Fisher-Price", "Graco",
+      "Skip Hop", "BabyBjörn", "UPPAbaby", "Stokke", "Ergobaby",
+      "Pampers", "Huggies", "Honest Company", "Burt's Bees Baby",
+      "Aden + Anais", "Little Sleepies", "Kyte Baby", "Bambo Nature"
     ],
   },
   {
@@ -278,7 +288,11 @@ export const BRAND_CATEGORIES = [
     name: "Kitchen, Home Essentials & Everyday Products",
     icon: "🍽️",
     brands: [
-      "Ninja", "NutriBullet", "Brita", "Tupperware", "OXO", "Rubbermaid"
+      "Ninja", "NutriBullet", "Brita", "Tupperware", "OXO", "Rubbermaid",
+      "KitchenAid", "Cuisinart", "Instant Pot", "Vitamix", "Breville",
+      "Le Creuset", "Staub", "All-Clad", "Calphalon", "Pyrex",
+      "Corelle", "Yeti", "Hydro Flask", "Stanley", "Zojirushi",
+      "Thermos", "Contigo"
     ],
   },
   {
@@ -286,7 +300,11 @@ export const BRAND_CATEGORIES = [
     name: "Pet Care & Lifestyle",
     icon: "🐾",
     brands: [
-      "PetSafe", "Chewy", "PetKit", "Petlibro", "Purina", "Wellness"
+      "PetSafe", "Chewy", "PetKit", "Petlibro", "Purina", "Wellness",
+      "Hill's Science Diet", "Royal Canin", "Blue Buffalo", "Taste of the Wild",
+      "Orijen", "Acana", "Merrick", "Zesty Paws", "Furbo",
+      "Whistle", "FitBark", "Petcube", "Litter Robot", "AutoFeeder",
+      "Kong", "Chuckit!", "Outward Hound", "Kurgo"
     ],
   },
   {
@@ -294,7 +312,11 @@ export const BRAND_CATEGORIES = [
     name: "E-Commerce & Marketplace Collaborations",
     icon: "🛒",
     brands: [
-      "Temu", "Amazon", "Etsy", "AliExpress", "Walmart Marketplace"
+      "Temu", "Amazon", "Etsy", "AliExpress", "Walmart Marketplace",
+      "eBay", "Shopify", "WooCommerce", "BigCommerce", "Mercari",
+      "Poshmark", "Depop", "Vinted", "Grailed", "StockX",
+      "GOAT", "Fashion Nova", "Boohoo", "ASOS", "Revolve",
+      "Shopbop", "Net-a-Porter", "Farfetch"
     ],
   },
   {
@@ -303,7 +325,10 @@ export const BRAND_CATEGORIES = [
     icon: "📱",
     brands: [
       "CapCut", "Lightroom", "Notion", "Canva", "VN Editor", "Metricool",
-      "InShot", "PicsArt"
+      "InShot", "PicsArt", "VSCO", "Snapseed", "Adobe Express",
+      "Figma", "Sketch", "Procreate", "Over", "Unfold",
+      "Planoly", "Later", "Buffer", "Hootsuite", "Sprout Social",
+      "Linktree", "Linkin.bio", "Beacons"
     ],
   },
 ];
