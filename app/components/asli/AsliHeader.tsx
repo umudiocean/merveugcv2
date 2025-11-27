@@ -40,14 +40,24 @@ export default function AsliHeader() {
             {/* Logo */}
             <motion.a
               href="#home"
-              className="text-xl md:text-2xl font-bold tracking-tight relative group"
+              className="relative group"
               whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
             >
-              <span className="relative z-10">MERVE TAS</span>
-              <motion.span
-                className="absolute inset-0 bg-[var(--accent)] opacity-0 group-hover:opacity-10 rounded"
-                layoutId="logo-bg"
-              />
+              <motion.div
+                className="px-4 py-2 md:px-6 md:py-3 rounded-lg bg-[var(--accent)] relative overflow-hidden"
+                initial={{ opacity: 0, x: -20 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ delay: 2, duration: 0.6 }}
+                whileHover={{ boxShadow: "0 0 20px rgba(255, 107, 107, 0.4)" }}
+              >
+                <motion.span
+                  className="absolute inset-0 bg-gradient-to-r from-[var(--accent)] to-[var(--accent-secondary)] opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                />
+                <span className="relative z-10 text-white font-bold text-sm md:text-base tracking-wider uppercase">
+                  MERVE TAS
+                </span>
+              </motion.div>
             </motion.a>
 
             {/* Desktop Navigation */}

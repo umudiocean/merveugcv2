@@ -62,7 +62,7 @@ export default function AsliAbout() {
 
             <div className="space-y-6 text-lg leading-relaxed text-[var(--gray)] mb-12">
               <p>
-                I&apos;m MERVE TAS — a Texas-based professional UGC Creator and digital storyteller.
+                I&apos;m MERVE TAS a Texas-based professional UGC Creator and digital storyteller.
               </p>
               <p>
                 I create high-impact, organic traffic-generating, and sales conversion-focused content 
