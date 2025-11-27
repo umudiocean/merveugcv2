@@ -6,19 +6,19 @@ import { useEffect, useState } from "react";
 
 const HERO_SLIDES = [
   {
-    title: "UGC Creator",
-    subtitle: "Merve Uğraş",
-    description: "Creating authentic content that converts for 100+ global brands including Zara, Nike, L&apos;Oréal, and Dyson",
+    title: "Instagram UGC Creator",
+    subtitle: "MERVE TAS",
+    description: "Creating authentic Instagram content that converts for 100+ global brands including Zara, Nike, L&apos;Oréal, and Dyson",
   },
   {
     title: "Brand Stories",
     subtitle: "Your Vision",
-    description: "Bringing your products to life through engaging user-generated content across 10+ industries",
+    description: "Bringing your products to life through engaging Instagram content across 10+ industries",
   },
   {
     title: "Results Driven",
     subtitle: "Performance",
-    description: "Data-backed content strategies that deliver measurable impact and drive real conversions",
+    description: "Instagram-focused content strategies with Google & Yahoo data promotion partnerships for maximum reach",
   },
 ];
 

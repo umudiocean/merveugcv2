@@ -16,7 +16,7 @@ export default function AsliFooter() {
             transition={{ duration: 0.5 }}
             className="text-sm text-[var(--gray)] flex items-center gap-2"
           >
-            © {new Date().getFullYear()} Merve UGC. Made with
+            © {new Date().getFullYear()} MERVE TAS. Made with
             <Heart size={14} className="text-[var(--accent)] fill-[var(--accent)]" />
           </motion.p>
 

@@ -4,15 +4,13 @@ export function getPersonSchema() {
   return {
     "@context": "https://schema.org",
     "@type": "Person",
-    name: "Merve UGC",
-    jobTitle: "UGC Content Creator",
-    description: "UGC content creator specializing in performance marketing and A/B testing for DTC and e-commerce brands.",
+    name: "MERVE TAS",
+    jobTitle: "Instagram UGC Content Creator",
+    description: "Instagram-focused UGC content creator specializing in performance marketing for DTC and e-commerce brands. Also working with Google and Yahoo for data promotion partnerships.",
     url: "https://merveugc.com",
+    email: "merve@merveugc.com",
     sameAs: [
-      "https://tiktok.com/@merveugc",
       "https://instagram.com/merveugc",
-      "https://youtube.com/@merveugc",
-      "https://linkedin.com/in/merveugc",
     ],
   };
 }
@@ -21,12 +19,12 @@ export function getServiceSchema() {
   return {
     "@context": "https://schema.org",
     "@type": "Service",
-    serviceType: "UGC Video Production",
+    serviceType: "Instagram UGC Video Production",
     provider: {
       "@type": "Person",
-      name: "Merve UGC",
+      name: "MERVE TAS",
     },
-    description: "Professional UGC video production for TikTok and Instagram Reels, optimized for performance marketing campaigns.",
+    description: "Professional Instagram UGC video production, optimized for performance marketing campaigns. Also working with Google and Yahoo for data promotion partnerships.",
     areaServed: "Worldwide",
     hasOfferCatalog: {
       "@type": "OfferCatalog",
@@ -65,14 +63,12 @@ export function getOrganizationSchema() {
   return {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "Merve UGC",
+    name: "MERVE TAS",
     url: "https://merveugc.com",
     logo: "https://merveugc.com/logo.png",
+    email: "merve@merveugc.com",
     sameAs: [
-      "https://tiktok.com/@merveugc",
       "https://instagram.com/merveugc",
-      "https://youtube.com/@merveugc",
-      "https://linkedin.com/in/merveugc",
     ],
   };
 }

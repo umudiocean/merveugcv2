@@ -7,7 +7,6 @@ import { useState, useEffect } from "react";
 const NAV_ITEMS = [
   { label: "Home", href: "#home" },
   { label: "Portfolio", href: "#portfolio" },
-  { label: "Brands", href: "#brands" },
   { label: "About", href: "#about" },
   { label: "Contact", href: "#contact" },
 ];
@@ -43,8 +42,7 @@ export default function AsliHeader() {
               className="text-xl md:text-2xl font-bold tracking-tight relative group"
               whileHover={{ scale: 1.05 }}
             >
-              <span className="relative z-10">Merve</span>
-              <span className="text-[var(--accent)] relative z-10">.</span>
+              <span className="relative z-10">MERVE TAS</span>
               <motion.span
                 className="absolute inset-0 bg-[var(--accent)] opacity-0 group-hover:opacity-10 rounded"
                 layoutId="logo-bg"

@@ -1,9 +1,6 @@
 // Social Links
 export const SOCIAL_LINKS = {
-  tiktok: "https://tiktok.com/@merveugc",
   instagram: "https://instagram.com/merveugc",
-  youtube: "https://youtube.com/@merveugc",
-  linkedin: "https://linkedin.com/in/merveugc",
 };
 
 // Trust Badges

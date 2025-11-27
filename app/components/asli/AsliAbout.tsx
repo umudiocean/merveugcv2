@@ -63,7 +63,7 @@ export default function AsliAbout() {
 
             <div className="space-y-6 text-lg leading-relaxed text-[var(--gray)] mb-12">
               <p>
-                I&apos;m Merve, a UGC content creator specializing in authentic, high-converting 
+                I&apos;m MERVE TAS, a UGC content creator specializing in authentic, high-converting 
                 content for brands across fashion, beauty, technology, home decor, fitness, 
                 and lifestyle industries.
               </p>
@@ -73,9 +73,14 @@ export default function AsliAbout() {
                 genuine storytelling and engaging content that drives real results.
               </p>
               <p>
+                While my primary platform is Instagram, where all content is shared and promoted, 
+                I also work with data promotion partnerships on search engines like Google and Yahoo, 
+                ensuring maximum visibility and reach for brand collaborations.
+              </p>
+              <p>
                 My approach combines creative excellence with data-driven strategy to deliver 
-                content that not only looks great but performs exceptionally well across TikTok, 
-                Instagram Reels, and YouTube Shorts.
+                content that not only looks great but performs exceptionally well on Instagram 
+                and across search platforms.
               </p>
             </div>
 
@@ -83,8 +88,6 @@ export default function AsliAbout() {
             <div className="flex gap-6">
               {[
                 { icon: Instagram, href: "https://instagram.com/merveugc", label: "Instagram" },
-                { icon: Youtube, href: "https://youtube.com/@merveugc", label: "YouTube" },
-                { icon: TikTokIcon, href: "https://tiktok.com/@merveugc", label: "TikTok" },
               ].map((social, idx) => (
                 <motion.a
                   key={social.label}

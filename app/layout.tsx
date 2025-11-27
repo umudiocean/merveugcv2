@@ -16,19 +16,19 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: "Merve UGC – High-Converting TikTok & Reels UGC Videos | 100+ Brand Collaborations",
-  description: "UGC content creator with 100+ brand partnerships including Zara, Nike, L&apos;Oréal, Dyson, and Target. Specializing in fashion, beauty, technology, and lifestyle content across TikTok, Instagram Reels, and YouTube Shorts.",
-  keywords: ["UGC", "User Generated Content", "TikTok Ads", "Reels", "Performance Marketing", "DTC", "E-commerce", "Content Creator", "Brand Collaborations", "Fashion UGC", "Beauty UGC", "Tech UGC"],
-  authors: [{ name: "Merve UGC" }],
-  creator: "Merve UGC",
-  publisher: "Merve UGC",
+  title: "MERVE TAS – Instagram UGC Creator | 100+ Brand Collaborations",
+  description: "Instagram-focused UGC content creator with 100+ brand partnerships including Zara, Nike, L&apos;Oréal, Dyson, and Target. Specializing in fashion, beauty, technology, and lifestyle content. Also working with Google and Yahoo for data promotion partnerships.",
+  keywords: ["UGC", "User Generated Content", "Instagram UGC", "Instagram Creator", "Performance Marketing", "DTC", "E-commerce", "Content Creator", "Brand Collaborations", "Fashion UGC", "Beauty UGC", "Tech UGC", "Google Ads", "Yahoo Ads"],
+  authors: [{ name: "MERVE TAS" }],
+  creator: "MERVE TAS",
+  publisher: "MERVE TAS",
   openGraph: {
     type: "website",
     locale: "en_US",
     url: "https://merveugc.com",
-    title: "Merve UGC – High-Converting TikTok & Reels UGC Videos | 100+ Brand Collaborations",
-    description: "UGC content creator with 100+ brand partnerships including Zara, Nike, L&apos;Oréal, Dyson, and Target. Specializing in authentic, high-converting content across 10+ industries.",
-    siteName: "Merve UGC",
+    title: "MERVE TAS – Instagram UGC Creator | 100+ Brand Collaborations",
+    description: "Instagram-focused UGC content creator with 100+ brand partnerships including Zara, Nike, L&apos;Oréal, Dyson, and Target. Also working with Google and Yahoo for data promotion partnerships.",
+    siteName: "MERVE TAS",
     // images: [
     //   {
     //     url: "/og-image.jpg",
@@ -40,8 +40,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Merve UGC – High-Converting TikTok & Reels UGC Videos | 100+ Brand Collaborations",
-    description: "UGC content creator with 100+ brand partnerships. Specializing in authentic, high-converting content across fashion, beauty, technology, and lifestyle industries.",
+    title: "MERVE TAS – Instagram UGC Creator | 100+ Brand Collaborations",
+    description: "Instagram-focused UGC content creator with 100+ brand partnerships. Also working with Google and Yahoo for data promotion partnerships.",
     // images: ["/og-image.jpg"],
   },
   robots: {

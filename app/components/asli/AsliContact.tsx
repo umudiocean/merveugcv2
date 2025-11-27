@@ -59,7 +59,7 @@ export default function AsliContact() {
             {/* Contact Info */}
             <div className="space-y-6">
               <motion.a
-                href="mailto:hello@merveugc.com"
+                href="mailto:merve@merveugc.com"
                 className="flex items-center gap-4 group"
                 whileHover={{ x: 10 }}
                 transition={{ duration: 0.3 }}
@@ -67,7 +67,7 @@ export default function AsliContact() {
                 <div className="w-12 h-12 rounded-full border border-[var(--border)] flex items-center justify-center group-hover:border-[var(--accent)] group-hover:text-[var(--accent)] transition-all">
                   <Mail size={20} />
                 </div>
-                <span className="text-lg">hello@merveugc.com</span>
+                <span className="text-lg">merve@merveugc.com</span>
               </motion.a>
             </div>
           </motion.div>
