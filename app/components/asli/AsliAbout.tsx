@@ -106,7 +106,7 @@ export default function AsliAbout() {
             {/* Social Links */}
             <div className="flex gap-6">
               {[
-                { icon: Instagram, href: "https://instagram.com/merveugc", label: "Instagram" },
+                { icon: Instagram, href: "https://www.instagram.com/merveugc/", label: "Instagram" },
               ].map((social, idx) => (
                 <motion.a
                   key={social.label}

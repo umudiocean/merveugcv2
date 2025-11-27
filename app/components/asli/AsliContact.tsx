@@ -73,7 +73,7 @@ export default function AsliContact() {
                 </div>
               </motion.a>
               <motion.a
-                href="https://instagram.com/merveugc"
+                href="https://www.instagram.com/merveugc/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-4 group"

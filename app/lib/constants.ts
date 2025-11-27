@@ -1,6 +1,6 @@
 // Social Links
 export const SOCIAL_LINKS = {
-  instagram: "https://instagram.com/merveugc",
+  instagram: "https://www.instagram.com/merveugc/",
 };
 
 // Trust Badges

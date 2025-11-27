@@ -3,6 +3,7 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import { useState, useEffect } from "react";
+import { SOCIAL_LINKS } from "@/app/lib/constants";
 
 const NAV_ITEMS = [
   { label: "Home", href: "#home" },
@@ -39,7 +40,9 @@ export default function AsliHeader() {
           <div className="flex items-center justify-between py-6 md:py-8">
             {/* Logo */}
             <motion.a
-              href="#home"
+              href={SOCIAL_LINKS.instagram}
+              target="_blank"
+              rel="noopener noreferrer"
               className="relative group"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
@@ -54,8 +57,8 @@ export default function AsliHeader() {
                 <motion.span
                   className="absolute inset-0 bg-gradient-to-r from-[var(--accent)] to-[var(--accent-secondary)] opacity-0 group-hover:opacity-100 transition-opacity duration-300"
                 />
-                <span className="relative z-10 text-white font-bold text-sm md:text-base tracking-wider uppercase">
-                  MERVE TAS
+                <span className="relative z-10 text-white font-bold text-sm md:text-base tracking-wider">
+                  @merveugc
                 </span>
               </motion.div>
             </motion.a>

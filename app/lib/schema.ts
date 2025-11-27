@@ -15,7 +15,7 @@ export function getPersonSchema() {
       addressCountry: "USA",
     },
     sameAs: [
-      "https://instagram.com/merveugc",
+      "https://www.instagram.com/merveugc/",
     ],
   };
 }
@@ -73,7 +73,7 @@ export function getOrganizationSchema() {
     logo: "https://merveugc.com/logo.png",
     email: "merve@merveugc.com",
     sameAs: [
-      "https://instagram.com/merveugc",
+      "https://www.instagram.com/merveugc/",
     ],
   };
 }
