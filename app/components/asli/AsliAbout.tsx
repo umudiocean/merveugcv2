@@ -38,9 +38,9 @@ export default function AsliAbout() {
               transition={{ delay: 0.3, duration: 0.6 }}
               className="absolute -bottom-8 -right-8 bg-[var(--bg-dark)] text-[var(--text-dark)] p-8 rounded-2xl shadow-2xl"
             >
-              <div className="text-4xl font-bold text-[var(--accent)] mb-2">120+</div>
+              <div className="text-4xl font-bold text-[var(--accent)] mb-2">100+</div>
               <div className="text-sm uppercase tracking-wider text-[var(--gray)]">
-                Successful Campaigns
+                Global Brands
               </div>
             </motion.div>
           </motion.div>
@@ -57,30 +57,49 @@ export default function AsliAbout() {
             </p>
 
             <h2 className="mb-8">
-              Creating Content <br />
-              <span className="text-[var(--accent)]">That Converts</span>
+              About <span className="text-[var(--accent)]">Me</span>
             </h2>
 
             <div className="space-y-6 text-lg leading-relaxed text-[var(--gray)] mb-12">
               <p>
-                I&apos;m MERVE TAS, a UGC content creator specializing in authentic, high-converting 
-                content for brands across fashion, beauty, technology, home decor, fitness, 
-                and lifestyle industries.
+                I&apos;m MERVE TAS — a Texas-based professional UGC Creator and digital storyteller.
               </p>
               <p>
-                With over 100+ brand collaborations including global leaders like Zara, Nike, 
-                L&apos;Oréal, Dyson, and Target, I help brands connect with their audience through 
-                genuine storytelling and engaging content that drives real results.
+                I create high-impact, organic traffic-generating, and sales conversion-focused content 
+                to strengthen brands&apos; digital identity.
+              </p>
+              <p className="font-semibold text-[var(--text-light)] mb-4">
+                My content production process follows a completely professional structure:
+              </p>
+              <ul className="space-y-3 mb-6">
+                <li className="flex items-start gap-3">
+                  <span className="text-[var(--accent)] mt-1">📊</span>
+                  <span>Target audience & behavior analysis</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-[var(--accent)] mt-1">🎥</span>
+                  <span>Strategic short video planning (ad creatives, product demos, testimonials, lifestyle)</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-[var(--accent)] mt-1">🎨</span>
+                  <span>Light, color psychology, and composition optimization</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-[var(--accent)] mt-1">🚀</span>
+                  <span>Algorithm-compatible editing that maximizes organic reach</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-[var(--accent)] mt-1">📈</span>
+                  <span>Performance analysis & content optimization</span>
+                </li>
+              </ul>
+              <p>
+                Every piece of content is designed to showcase the brand&apos;s values, build trust 
+                with consumers, and leave a lasting impression.
               </p>
               <p>
-                While my primary platform is Instagram, where all content is shared and promoted, 
-                I also work with data promotion partnerships on search engines like Google and Yahoo, 
-                ensuring maximum visibility and reach for brand collaborations.
-              </p>
-              <p>
-                My approach combines creative excellence with data-driven strategy to deliver 
-                content that not only looks great but performs exceptionally well on Instagram 
-                and across search platforms.
+                To date, I&apos;ve collaborated with over 100 global brands, delivering measurable 
+                contributions to their social media conversions.
               </p>
             </div>
 

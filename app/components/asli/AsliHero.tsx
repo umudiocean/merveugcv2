@@ -6,19 +6,19 @@ import { useEffect, useState } from "react";
 
 const HERO_SLIDES = [
   {
-    title: "Instagram UGC Creator",
+    title: "Authentic Content. Real Impact.",
     subtitle: "MERVE TAS",
-    description: "Creating authentic Instagram content that converts for 100+ global brands including Zara, Nike, L&apos;Oréal, and Dyson",
+    description: "Texas-based professional UGC Creator empowering brands with organic, effective, and high-converting content that tells their story.",
   },
   {
-    title: "Brand Stories",
-    subtitle: "Your Vision",
-    description: "Bringing your products to life through engaging Instagram content across 10+ industries",
+    title: "Strategic. Data-Driven. Creative.",
+    subtitle: "Your Story",
+    description: "I create strategic, data-driven, and creative video content that increases brands&apos; visibility and sales conversion.",
   },
   {
-    title: "Results Driven",
-    subtitle: "Performance",
-    description: "Instagram-focused content strategies with Google & Yahoo data promotion partnerships for maximum reach",
+    title: "100+ Global Brands",
+    subtitle: "Trusted Partner",
+    description: "Working with leading brands worldwide to deliver measurable results and authentic storytelling",
   },
 ];
 
@@ -104,26 +104,41 @@ export default function AsliHero() {
                 {HERO_SLIDES[currentSlide].description}
               </motion.p>
 
-              {/* CTA Button */}
-              <motion.button
-                onClick={scrollToPortfolio}
-                className="group relative px-8 py-4 border border-[var(--border)] rounded-full overflow-hidden"
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.8 }}
-                whileHover={{ scale: 1.05 }}
-              >
-                <motion.span
-                  className="absolute inset-0 bg-[var(--accent)] origin-left"
-                  initial={{ scaleX: 0 }}
-                  whileHover={{ scaleX: 1 }}
-                  transition={{ duration: 0.4 }}
-                />
-                <span className="relative z-10 flex items-center gap-3 text-sm tracking-wider uppercase">
-                  View Work
-                  <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
-                </span>
-              </motion.button>
+              {/* CTA Buttons */}
+              <div className="flex flex-wrap gap-4">
+                <motion.button
+                  onClick={() => document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })}
+                  className="group relative px-8 py-4 border border-[var(--border)] rounded-full overflow-hidden"
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: 0.8 }}
+                  whileHover={{ scale: 1.05 }}
+                >
+                  <motion.span
+                    className="absolute inset-0 bg-[var(--accent)] origin-left"
+                    initial={{ scaleX: 0 }}
+                    whileHover={{ scaleX: 1 }}
+                    transition={{ duration: 0.4 }}
+                  />
+                  <span className="relative z-10 flex items-center gap-3 text-sm tracking-wider uppercase">
+                    Work With Me
+                    <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
+                  </span>
+                </motion.button>
+                <motion.button
+                  onClick={scrollToPortfolio}
+                  className="group relative px-8 py-4 border border-[var(--border)] rounded-full overflow-hidden"
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: 0.9 }}
+                  whileHover={{ scale: 1.05 }}
+                >
+                  <span className="relative z-10 flex items-center gap-3 text-sm tracking-wider uppercase">
+                    View Portfolio
+                    <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
+                  </span>
+                </motion.button>
+              </div>
             </motion.div>
           </AnimatePresence>
         </div>

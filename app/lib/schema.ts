@@ -5,10 +5,15 @@ export function getPersonSchema() {
     "@context": "https://schema.org",
     "@type": "Person",
     name: "MERVE TAS",
-    jobTitle: "Instagram UGC Content Creator",
-    description: "Instagram-focused UGC content creator specializing in performance marketing for DTC and e-commerce brands. Also working with Google and Yahoo for data promotion partnerships.",
+    jobTitle: "Professional UGC Content Creator",
+    description: "Texas-based professional UGC Creator and digital storyteller. Creating high-impact, organic traffic-generating, and sales conversion-focused content for brands worldwide.",
     url: "https://merveugc.com",
     email: "merve@merveugc.com",
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: "Texas",
+      addressCountry: "USA",
+    },
     sameAs: [
       "https://instagram.com/merveugc",
     ],

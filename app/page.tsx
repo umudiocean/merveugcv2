@@ -4,6 +4,8 @@ import AsliHeader from "./components/asli/AsliHeader";
 import AsliHero from "./components/asli/AsliHero";
 import AsliPortfolio from "./components/asli/AsliPortfolio";
 import AsliAbout from "./components/asli/AsliAbout";
+import AsliServices from "./components/asli/AsliServices";
+import AsliWhy from "./components/asli/AsliWhy";
 import AsliContact from "./components/asli/AsliContact";
 import AsliFooter from "./components/asli/AsliFooter";
 import { getPersonSchema, getServiceSchema, getOrganizationSchema } from "./lib/schema";
@@ -45,6 +47,8 @@ export default function Home() {
         <AsliHero />
         <AsliPortfolio />
         <AsliAbout />
+        <AsliServices />
+        <AsliWhy />
         <AsliContact />
       </main>
 
