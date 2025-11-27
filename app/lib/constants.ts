@@ -9,7 +9,7 @@ export const SOCIAL_LINKS = {
 // Trust Badges
 export const TRUST_BADGES = [
   { label: "3M+", sublabel: "Views" },
-  { label: "120+", sublabel: "Collaborations" },
+  { label: "100+", sublabel: "Brand Partners" },
   { label: "38%", sublabel: "Avg CTR Increase" },
 ];
 
@@ -21,9 +21,9 @@ export const STATS = [
     description: "Across all campaigns",
   },
   {
-    value: "120+",
-    label: "Collaborations",
-    description: "With DTC & e-commerce brands",
+    value: "100+",
+    label: "Brand Partners",
+    description: "Including Zara, Nike, L'Oréal, Dyson, Target",
   },
   {
     value: "38%",
@@ -31,9 +31,9 @@ export const STATS = [
     description: "Performance improvement",
   },
   {
-    value: "1.8x",
-    label: "CPM Improvement",
-    description: "Cost efficiency boost",
+    value: "10+",
+    label: "Industries",
+    description: "Fashion, Beauty, Tech, Home & more",
   },
 ];
 
@@ -211,6 +211,103 @@ export const FAQ_ITEMS = [
   {
     question: "Is my brand information kept confidential?",
     answer: "Absolutely. I sign NDAs when required and never share your strategy, briefs, or unreleased content publicly.",
+  },
+];
+
+// Brands & Collaborations
+export const BRAND_CATEGORIES = [
+  {
+    id: "fashion",
+    name: "Fashion, Apparel & Accessories",
+    icon: "👗",
+    brands: [
+      "Zara", "Mango", "H&M", "Koton", "Stradivarius", "Shein", "Sidefeel",
+      "Dressin", "OGÉL", "Babelio", "Adidas", "Nike", "Puma", "Calvin Klein",
+      "Guess", "Bershka", "Pull&Bear", "Forever 21", "ZAFUL", "Halara",
+      "PrettyLittleThing", "Fashion Nova"
+    ],
+  },
+  {
+    id: "beauty",
+    name: "Beauty, Skincare & Personal Care",
+    icon: "💄",
+    brands: [
+      "Temu", "Farmasi", "Flormar", "Golden Rose", "Dyson Beauty", "Kismig",
+      "Maybelline", "NYX Cosmetics", "Sephora Collection", "L'Oréal Paris",
+      "Rare Beauty", "e.l.f Cosmetics", "Garnier", "Olay", "CapCut Beauty",
+      "Kaja Beauty"
+    ],
+  },
+  {
+    id: "home",
+    name: "Home, Decor & Lifestyle",
+    icon: "🏠",
+    brands: [
+      "Target", "Yita Home", "Narwal", "Homenjoy", "Banbanda", "IKEA",
+      "Home Depot", "Bed Bath & Beyond", "Wayfair", "Amazon Home",
+      "Better Homes & Gardens", "Studio McGee", "CB2", "West Elm"
+    ],
+  },
+  {
+    id: "tech",
+    name: "Technology, Electronics & Smart Home",
+    icon: "🎧",
+    brands: [
+      "Dyson", "Anker", "Belkin", "JBL", "Sony", "Xiaomi", "Eufy", "Ring",
+      "Amazon Devices", "TP-Link", "Insta360", "Razer", "Aqara"
+    ],
+  },
+  {
+    id: "fitness",
+    name: "Sports, Fitness & Wellness",
+    icon: "🧘‍♀️",
+    brands: [
+      "Adidas", "AllZeroYoga", "Arshiner", "Lululemon", "Gymshark",
+      "Under Armour", "Alo Yoga", "P.volve", "On Running", "Reebok",
+      "Decathlon"
+    ],
+  },
+  {
+    id: "baby",
+    name: "Baby, Kids & Family",
+    icon: "👶",
+    brands: [
+      "Carter's", "Arshiner", "PatPat", "KidsTop", "OGL", "H&M Kids",
+      "Gap Kids", "OshKosh B'gosh"
+    ],
+  },
+  {
+    id: "kitchen",
+    name: "Kitchen, Home Essentials & Everyday Products",
+    icon: "🍽️",
+    brands: [
+      "Ninja", "NutriBullet", "Brita", "Tupperware", "OXO", "Rubbermaid"
+    ],
+  },
+  {
+    id: "pet",
+    name: "Pet Care & Lifestyle",
+    icon: "🐾",
+    brands: [
+      "PetSafe", "Chewy", "PetKit", "Petlibro", "Purina", "Wellness"
+    ],
+  },
+  {
+    id: "ecommerce",
+    name: "E-Commerce & Marketplace Collaborations",
+    icon: "🛒",
+    brands: [
+      "Temu", "Amazon", "Etsy", "AliExpress", "Walmart Marketplace"
+    ],
+  },
+  {
+    id: "apps",
+    name: "Apps, Software & Digital Tools",
+    icon: "📱",
+    brands: [
+      "CapCut", "Lightroom", "Notion", "Canva", "VN Editor", "Metricool",
+      "InShot", "PicsArt"
+    ],
   },
 ];
 

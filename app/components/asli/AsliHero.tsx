@@ -8,17 +8,17 @@ const HERO_SLIDES = [
   {
     title: "UGC Creator",
     subtitle: "Merve Uğraş",
-    description: "Creating authentic content that converts for brands worldwide",
+    description: "Creating authentic content that converts for 100+ global brands including Zara, Nike, L'Oréal, and Dyson",
   },
   {
     title: "Brand Stories",
     subtitle: "Your Vision",
-    description: "Bringing your products to life through engaging user-generated content",
+    description: "Bringing your products to life through engaging user-generated content across 10+ industries",
   },
   {
     title: "Results Driven",
     subtitle: "Performance",
-    description: "Data-backed content strategies that deliver measurable impact",
+    description: "Data-backed content strategies that deliver measurable impact and drive real conversions",
   },
 ];
 

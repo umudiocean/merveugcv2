@@ -16,9 +16,9 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: "Merve UGC – High-Converting TikTok & Reels UGC Videos",
-  description: "UGC content creator specializing in performance marketing and A/B testing for DTC and e-commerce brands. TikTok & Reels focused.",
-  keywords: ["UGC", "User Generated Content", "TikTok Ads", "Reels", "Performance Marketing", "DTC", "E-commerce", "Content Creator"],
+  title: "Merve UGC – High-Converting TikTok & Reels UGC Videos | 100+ Brand Collaborations",
+  description: "UGC content creator with 100+ brand partnerships including Zara, Nike, L'Oréal, Dyson, and Target. Specializing in fashion, beauty, technology, and lifestyle content across TikTok, Instagram Reels, and YouTube Shorts.",
+  keywords: ["UGC", "User Generated Content", "TikTok Ads", "Reels", "Performance Marketing", "DTC", "E-commerce", "Content Creator", "Brand Collaborations", "Fashion UGC", "Beauty UGC", "Tech UGC"],
   authors: [{ name: "Merve UGC" }],
   creator: "Merve UGC",
   publisher: "Merve UGC",
@@ -26,8 +26,8 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://merveugc.com",
-    title: "Merve UGC – High-Converting TikTok & Reels UGC Videos",
-    description: "UGC content creator specializing in performance marketing and A/B testing for DTC and e-commerce brands.",
+    title: "Merve UGC – High-Converting TikTok & Reels UGC Videos | 100+ Brand Collaborations",
+    description: "UGC content creator with 100+ brand partnerships including Zara, Nike, L'Oréal, Dyson, and Target. Specializing in authentic, high-converting content across 10+ industries.",
     siteName: "Merve UGC",
     // images: [
     //   {
@@ -40,8 +40,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Merve UGC – High-Converting TikTok & Reels UGC Videos",
-    description: "UGC content creator specializing in performance marketing and A/B testing for DTC and e-commerce brands.",
+    title: "Merve UGC – High-Converting TikTok & Reels UGC Videos | 100+ Brand Collaborations",
+    description: "UGC content creator with 100+ brand partnerships. Specializing in authentic, high-converting content across fashion, beauty, technology, and lifestyle industries.",
     // images: ["/og-image.jpg"],
   },
   robots: {

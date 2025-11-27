@@ -64,12 +64,13 @@ export default function AsliAbout() {
             <div className="space-y-6 text-lg leading-relaxed text-[var(--gray)] mb-12">
               <p>
                 I&apos;m Merve, a UGC content creator specializing in authentic, high-converting 
-                content for brands across beauty, fashion, fitness, and lifestyle industries.
+                content for brands across fashion, beauty, technology, home decor, fitness, 
+                and lifestyle industries.
               </p>
               <p>
-                With over 120 successful campaigns and millions of views, I help brands 
-                connect with their audience through genuine storytelling and engaging content 
-                that drives real results.
+                With over 100+ brand collaborations including global leaders like Zara, Nike, 
+                L'Oréal, Dyson, and Target, I help brands connect with their audience through 
+                genuine storytelling and engaging content that drives real results.
               </p>
               <p>
                 My approach combines creative excellence with data-driven strategy to deliver 
