@@ -5,7 +5,7 @@ import { SOCIAL_LINKS } from "../lib/constants";
 
 const NAV_LINKS = [
   { label: "About", href: "#about" },
-  { label: "Packages", href: "#packages" },
+  { label: "Services", href: "#services" },
   { label: "Portfolio", href: "#portfolio" },
   { label: "Contact", href: "#contact" },
 ];
@@ -94,4 +94,3 @@ export default function Footer() {
     </footer>
   );
 }
-
