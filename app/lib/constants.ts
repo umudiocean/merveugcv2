@@ -23,7 +23,7 @@ export const STATS = [
   {
     value: "100+",
     label: "Brand Partners",
-    description: "Including Zara, Nike, L'Oréal, Dyson, Target",
+    description: "Including Zara, Nike, L&apos;Oréal, Dyson, Target",
   },
   {
     value: "38%",
@@ -233,7 +233,7 @@ export const BRAND_CATEGORIES = [
     icon: "💄",
     brands: [
       "Temu", "Farmasi", "Flormar", "Golden Rose", "Dyson Beauty", "Kismig",
-      "Maybelline", "NYX Cosmetics", "Sephora Collection", "L'Oréal Paris",
+      "Maybelline", "NYX Cosmetics", "Sephora Collection", "L&apos;Oréal Paris",
       "Rare Beauty", "e.l.f Cosmetics", "Garnier", "Olay", "CapCut Beauty",
       "Kaja Beauty"
     ],

@@ -69,7 +69,7 @@ export default function AsliAbout() {
               </p>
               <p>
                 With over 100+ brand collaborations including global leaders like Zara, Nike, 
-                L'Oréal, Dyson, and Target, I help brands connect with their audience through 
+                L&apos;Oréal, Dyson, and Target, I help brands connect with their audience through 
                 genuine storytelling and engaging content that drives real results.
               </p>
               <p>

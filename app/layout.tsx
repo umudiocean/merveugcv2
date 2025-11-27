@@ -17,7 +17,7 @@ const manrope = Manrope({
 
 export const metadata: Metadata = {
   title: "Merve UGC – High-Converting TikTok & Reels UGC Videos | 100+ Brand Collaborations",
-  description: "UGC content creator with 100+ brand partnerships including Zara, Nike, L'Oréal, Dyson, and Target. Specializing in fashion, beauty, technology, and lifestyle content across TikTok, Instagram Reels, and YouTube Shorts.",
+  description: "UGC content creator with 100+ brand partnerships including Zara, Nike, L&apos;Oréal, Dyson, and Target. Specializing in fashion, beauty, technology, and lifestyle content across TikTok, Instagram Reels, and YouTube Shorts.",
   keywords: ["UGC", "User Generated Content", "TikTok Ads", "Reels", "Performance Marketing", "DTC", "E-commerce", "Content Creator", "Brand Collaborations", "Fashion UGC", "Beauty UGC", "Tech UGC"],
   authors: [{ name: "Merve UGC" }],
   creator: "Merve UGC",
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://merveugc.com",
     title: "Merve UGC – High-Converting TikTok & Reels UGC Videos | 100+ Brand Collaborations",
-    description: "UGC content creator with 100+ brand partnerships including Zara, Nike, L'Oréal, Dyson, and Target. Specializing in authentic, high-converting content across 10+ industries.",
+    description: "UGC content creator with 100+ brand partnerships including Zara, Nike, L&apos;Oréal, Dyson, and Target. Specializing in authentic, high-converting content across 10+ industries.",
     siteName: "Merve UGC",
     // images: [
     //   {

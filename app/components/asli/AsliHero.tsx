@@ -8,7 +8,7 @@ const HERO_SLIDES = [
   {
     title: "UGC Creator",
     subtitle: "Merve Uğraş",
-    description: "Creating authentic content that converts for 100+ global brands including Zara, Nike, L'Oréal, and Dyson",
+    description: "Creating authentic content that converts for 100+ global brands including Zara, Nike, L&apos;Oréal, and Dyson",
   },
   {
     title: "Brand Stories",
